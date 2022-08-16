@@ -1,0 +1,44 @@
+.square {
+  background: #1d3557;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+  cursor: pointer;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.localBoard {
+  padding: 15px;
+  margin: 5px;
+  position: relative;
+}
+
+.isValid {
+  background: #a8dadc;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.showStatus {
+  position: absolute;
+  -webkit-text-stroke: 6px #FFF;
+  font-size: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
